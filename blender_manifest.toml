@@ -1,11 +1,12 @@
 schema_version = "1.0.0"
 
 id = "boneapalattice"
-version = "1.0.0"
+version = "2.0.0"
 name = "BoneApaLattice"
 tagline = "Creates an armature matching the vertices of a selected Lattice"
 maintainer = "Garvi"
 type = "add-on"
+tags = ["Rigging"]
 
 blender_version_min = "4.2.0"
 

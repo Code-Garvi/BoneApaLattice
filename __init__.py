@@ -1,7 +1,7 @@
 bl_info = {
     "name": "BoneApaLattice",
     "author": "Garvi",
-    "version": (1, 0),
+    "version": (2, 0),
     "blender": (3, 0, 0),
     "location": "View3D > N-Panel > Bonify",
     "description": "Creates an armature matching the vertices of a selected Lattice",
