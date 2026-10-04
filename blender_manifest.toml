@@ -6,6 +6,7 @@ name = "BoneApaLattice"
 tagline = "Creates an armature matching the vertices of a selected Lattice"
 maintainer = "Garvi"
 type = "add-on"
+tags = ["Rigging"]
 
 blender_version_min = "4.2.0"
 

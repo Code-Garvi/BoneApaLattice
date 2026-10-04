@@ -9,8 +9,18 @@ class VIEW3D_PT_bonify_lattice_panel(bpy.types.Panel):
     def draw(self, context):
         layout = self.layout
         col = layout.column(align=True)
-        col.operator("object.bonify_lattice_all", text="Bonify All Vertices")
-        col.operator("object.bonify_lattice_selected", text="Bonify Selected Vertices")
+        
+        col.label(text="Lattice Operations:")
+        col.operator("object.bonify_lattice_all", text="Bonify All Lattice Vertices")
+        col.operator("object.bonify_lattice_selected", text="Bonify Selected Lattice Vertices")
+        col.operator("object.bonify_lattice_active_bone", text="Bonify Lattice to Active Bone")
+        
+        col.separator()
+        
+        col.label(text="Mesh Operations:")
+        col.operator("object.bonify_mesh_all", text="Bonify All Mesh Vertices")
+        col.operator("object.bonify_mesh_selected", text="Bonify Selected Mesh Vertices")
+        col.operator("object.bonify_mesh_active_bone", text="Bonify Mesh to Active Bone")
 
 classes = (
     VIEW3D_PT_bonify_lattice_panel,
